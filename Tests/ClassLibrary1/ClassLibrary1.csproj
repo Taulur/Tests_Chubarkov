@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD5E6AE4-269A-43E2-AB2A-40D57BFE9763}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClassLibrary1</RootNamespace>
+    <AssemblyName>ClassLibrary1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chubarkov_5.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Ploskih_2.cs" />
+    <Compile Include="Chubarkov_2.cs" />
+    <Compile Include="Marunenko_2.cs" />
+    <Compile Include="Mezenceva_2.cs" />
+    <Compile Include="Mokeev_2.cs" />
+    <Compile Include="Forrat_2.cs" />
+    <Compile Include="Azarenko_2.cs" />
+    <Compile Include="Gorelova_2.cs" />
+    <Compile Include="Kobets_2.cs" />
+    <Compile Include="Marinina_2.cs" />
+    <Compile Include="Martynov_2.cs" />
+    <Compile Include="Kuzmin_2.cs" />
+    <Compile Include="Lezhen_2.cs" />
+    <Compile Include="Chubarkov_3.cs" />
+    <Compile Include="Ploskih_3.cs" />
+    <Compile Include="Nikitin_3.cs" />
+    <Compile Include="Mokeev_3.cs" />
+    <Compile Include="Forrat_3.cs" />
+    <Compile Include="Azarenko_3.cs" />
+    <Compile Include="Gorelova_3.cs" />
+    <Compile Include="Kobets_3.cs" />
+    <Compile Include="Marinina_3.cs" />
+    <Compile Include="Martynov_3.cs" />
+    <Compile Include="Kuzmin_3.cs" />
+    <Compile Include="Lezhen_3.cs" />
+    <Compile Include="Marunenko_5.cs" />
+    <Compile Include="Mezenceva_5.cs" />
+    <Compile Include="Nikitin_5.cs" />
+    <Compile Include="Ploskih_5.cs" />
+    <Compile Include="Mokeev_5.cs" />
+    <Compile Include="Forrat_5.cs" />
+    <Compile Include="Sergeeva_5.cs" />
+    <Compile Include="Rubtsova_5.cs" />
+    <Compile Include="Romanov_5.cs" />
+    <Compile Include="Rubtsova_3.cs" />
+    <Compile Include="Romanov_3.cs" />
+    <Compile Include="Sergeeva_2.cs" />
+    <Compile Include="Rubtsova_2.cs" />
+    <Compile Include="Romanov_2.cs" />
+    <Compile Include="Zelina_2.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
